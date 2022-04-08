@@ -1,2 +1,2 @@
-week 2 lab's screenshot:
-![image](https://user-images.githubusercontent.com/103166380/162348395-9c02d9d9-8c94-44a3-82fd-b52f6717bddc.png)
+week 1 lab's screenshot:
+![image](https://user-images.githubusercontent.com/103166380/162349356-c746b6f0-196e-491e-bb98-495edcd8d01e.png)
