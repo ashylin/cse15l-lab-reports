@@ -67,7 +67,10 @@ Example:
 
 Let's say you had a file called WhereAmI.java 
 
-In the terminal from the directory where this file was made, run the command (using your username) `scp WhereAmi.java cs15lsp22zz@ieng6.ucsd.edu~/`
+In the terminal from the directory where this file was made, run the command (using your username) 
+
+`scp WhereAmi.java cs15lsp22zz@ieng6.ucsd.edu~/`
+
 ![image](https://user-images.githubusercontent.com/103166380/162599454-47d7944a-b108-4f90-815b-38dbf1a935cc.png)
 
 It should ask you for a password to log in. Just use the same password when you ssh-ed. (Mine didn't because I used SSH keys which will be covered after this.)
@@ -75,5 +78,40 @@ It should ask you for a password to log in. Just use the same password when you 
 If you log into ieng6 with ssh again and run `ls`. you should see the file you just added in your directory.
 
 ## Setting an SSH Key
+To avoid having to type in your password everytime you ssh, we can set up `ssh` keys. A program called `ssh-keygen`, creates a pair of files called the *public key* and the *private key*. By copying the public key to a particular location on the server and the private key to a particular location on the client (your personal computer), you can automatically connect to the server with ssh without having to type in your password everytime.
+
+On client in your terminal, type:
+
+`ssh-keygen`
+
+![image](https://user-images.githubusercontent.com/103166380/162602280-fa839000-4545-4cdb-aad0-c918c943a14c.png)
+
+Copy whatever is in the paraenthesis, and paste it to the right of the colon. After you hit enter you should see:
+
+`Enter passphrase (empty for no passphrase):`
+
+**Do not add a passphrase**
+
+**Window's only: extra `ssh-add` step [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
+Two files should be created; the private key and the public key (`.pub`), stored in the `.ssh` directory on your computer. Copy the *public* key to the `.ssh` directory on the server:
+```
+ssh cs15lsp22zz@ieng6.ucsd.edu
+<Enter Password>
+
+mkdir .ssh
+exit
+
+scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+For the last command, use your username and the path you saw in the parathesis earlier.
+
+After this, you should be able to ssh without having to enter your password.
 
 ## Optimizing Remote Running
+You can write multiple commands on one line to save some time by using quotation marks for any commands after ssh or semi-colons.
+
+Example:
+
+![image](https://user-images.githubusercontent.com/103166380/162604052-06fd20f8-93ba-46ba-9266-a14f694c8dc2.png)
+
