@@ -2,7 +2,7 @@
 How to set up remote access
 
 ## Installing VSCode
-Google Visual Studio Code or click on this link [https://code.visualstudio.com/](https://code.visualstudio.com/) to download VSCode onto your computer. Once downloaded, you should see something similar to this when opening VSCode:
+Google Visual Studio Code or click on [this](https://code.visualstudio.com/) to download VSCode onto your computer. Once downloaded, you should see something similar to this when opening VSCode:
 ![vscode](https://user-images.githubusercontent.com/103166380/162598144-348a32a0-1dbb-4777-9514-1397fd9eb13a.png)
 
 ## Remotely Connecting
