@@ -3,7 +3,7 @@
 1) Code change diff:
 ![image](https://user-images.githubusercontent.com/103166380/164381005-92c914b3-0ed9-4499-8e23-3d28458f8f34.png)
 
-[Test file](https://github.com/pranay-jha/markdown-parser/commit/9a6d50cca290dc103e1ad45ab2f82a81f6ee7828) for *failure-inducing input*
+[Test file](https://github.com/pranay-jha/markdown-parser/blob/main/test-file2.md) for *failure-inducing input*
 
 Symptom of *failure-inducing input*: wrong output
 ```
@@ -31,7 +31,7 @@ The symptom of the code before changes were made was the exception error `IndexO
 3) Code change diff:
 ![image](https://user-images.githubusercontent.com/103166380/164603187-3f0d6bea-1d5c-4c10-a681-195ecf3877d3.png)
 
-[Test file](https://github.com/ehsly/markdown-parser/blob/main/test-file4.md) for *failure-inducing input*
+[Test file](https://github.com/ehsly/markdown-parser/blob/main/test-file3.md) for *failure-inducing input*
 
 Symptom of *failure-inducing input*: infinite loop
 
