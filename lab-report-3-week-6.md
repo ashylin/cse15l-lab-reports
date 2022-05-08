@@ -23,7 +23,7 @@ A `scp` command copying a file to your account using just the alias you chose I 
 
 have yet to successfully push without getting an error
 
-[haven't gotten it to work](link for resulting commit)
+(link for resulting commit)
 
 ## Copy whole directories with `scp -r`
 
