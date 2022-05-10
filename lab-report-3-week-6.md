@@ -13,17 +13,19 @@ A `scp` command copying a file to your account using just the alias you chose I 
 
 - Public key stored in Github:
 
-![image](https://user-images.githubusercontent.com/103166380/167282909-c9fc4469-1a7b-4e6d-8b37-97d2f9f15287.png)
+![image](https://user-images.githubusercontent.com/103166380/167686764-7e78f3de-cabe-4ed3-af80-7127b4deeba9.png)
 
-- Private key:
+- Public/Private key in user account
 
-![image](https://user-images.githubusercontent.com/103166380/167288293-344f1f20-9248-4a25-9b46-5e8afb6c1c5d.png)
+![image](https://user-images.githubusercontent.com/103166380/167687101-7209c69d-6f50-418b-952e-3f32bd9ceb5c.png)
 
-- Running git commands to commit and push a change to Github while logged into ieng6 account:
+- Running git commands to commit and push a change to Github while logged into ieng6 account
 
-have yet to successfully push without getting an error
+![image](https://user-images.githubusercontent.com/103166380/167687314-20c0e113-f66e-4316-91d4-34bec5c43ccc.png)
 
-(link for resulting commit)
+![image](https://user-images.githubusercontent.com/103166380/167687403-0bd66375-38b8-446d-91b4-496360c53eb9.png)
+
+[resulting commit](https://github.com/ehsly/markdown-parser/commit/b3348a397423be2d1bf4c480d04856c8d47f7062)
 
 ## Copy whole directories with `scp -r`
 
