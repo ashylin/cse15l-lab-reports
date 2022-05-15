@@ -5,9 +5,9 @@
 Note: I couldn't do this section because I use windows but this is a screenshot from a lab member who was able to Streamline ssh Configuration.
 ![image](https://user-images.githubusercontent.com/103166380/167057803-84b0166b-aca2-4757-809a-8b3691b88837.png)
 
-A `scp` command copying a file to your account using just the alias you chose I assume would be:
+- `scp` command to copy a file using the alias I chose
 
-`scp [file] [alias]:~/`
+![image](https://user-images.githubusercontent.com/103166380/168456697-b339fb37-58f0-48c1-89ec-87f2eb9374d9.png)
 
 ## Setup Github Access from ieng6
 
